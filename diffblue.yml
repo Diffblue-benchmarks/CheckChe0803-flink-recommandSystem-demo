@@ -181,9 +181,3 @@ phases:
       throw-runtime-exceptions: true
       # Set an upper bound on loop unwinding
       unwind: 3
-units:
- - target:
-   - dir: target/classes
-     file: com/demo/util/AgeUtil.class
-     sourceDir: src/main/java
-     sourceFile: com/demo/util/AgeUtil.java
